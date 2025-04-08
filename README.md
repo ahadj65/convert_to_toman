@@ -89,13 +89,13 @@ These components offer the following features:
 ## 🔧 **Parameters** (Four main sections)
 
 🔹 1. Library-specific Parameters (Core)
-| First Header  | Type | Description |
+| Name  | Type | Description |
 | ------------- | ------------- | ------------- |
 | showTextOnlyOnFocus  | Boolean  | Show the toman text only when focused? (default: false)  |
 
 🔹 2. TextField-specific Parameters
 
-| First Header  | Type | Description |
+| Name  | Type | Description |
 | ------------- | ------------- | ------------- |
 | value  | String  | Numeric input value (in rial)  |
 | onValueChange  | (String) -> Unit  | Function executed when the input value changes  |
@@ -119,7 +119,7 @@ These components offer the following features:
 
 
 🔹 3. Text parameters (Show Toman Text)
-| First Header  | Type | Description |
+| Name  | Type | Description |
 | ------------- | ------------- | ------------- |
 | textModifier  | Modifier  | Set position or size of the text  |
 | textColor  | Color  | Text color  |
@@ -140,7 +140,7 @@ These components offer the following features:
 
  
 🔹 4. Column-related Parameters (Root)
-| First Header  | Type | Description |
+| Name  | Type | Description |
 | ------------- | ------------- | ------------- |
 | columnModifier  | Modifier  | Overall settings for column, including the field and toman text  |
 | columnRootVerticalArrangement  | Arrangement.Vertical  | Vertical arrangement of elements  |
