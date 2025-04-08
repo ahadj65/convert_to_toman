@@ -199,7 +199,7 @@ fun TomanOutlinedTextField(
 
     ) {
     TomanTextFieldBase(
-        false,
+        true,
         value,
         onValueChange,
         modifier,

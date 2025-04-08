@@ -16,6 +16,7 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.compose.ui.unit.dp
 import ir.ahad.toman.ui.theme.TomanTheme
 
 class MainActivity : ComponentActivity() {
@@ -30,7 +31,7 @@ class MainActivity : ComponentActivity() {
                 Column {
                     TomanTextField(value = text, onValueChange = {
                         text = it
-                    })
+                    }, columnModifier = Modifier.padding(16.dp))
                 }
             }
         }
