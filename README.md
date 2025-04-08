@@ -1,8 +1,16 @@
 # Convert To Toman (تومن)
 
+
+
 ## 📌 Introduction
 In Iran, the official currency unit is the rial, but in daily life, people mostly deal with toman. This difference often causes confusion for users, especially when they need to enter or view an amount.
 In many financial, accounting, payment systems, or even stores, users input numbers in rials but expect to see or check the equivalent in toman. This library is developed specifically for this purpose: to allow easy and quick entry of rial numbers and display their equivalent in toman (both numerically and in words) in the Jetpack Compose environment.
+
+<br>
+
+<a href="url"><img src="https://s6.uupload.ir/files/toman2_ayta.png" width="500" ></a>
+
+<br>
 
 ## 🚀 Installation
 To use this library, you need to add JitPack as a repository and then include the dependency in your module.
@@ -40,7 +48,7 @@ dependencyResolutionManagement {
 
 ```
 dependencies {
-    implementation 'com.github.ahadj65:convert_to_toman:v0.1'
+    implementation 'com.github.ahadj65:convert_to_toman:v1.0'
 }
 ```
 
@@ -48,7 +56,7 @@ dependencies {
 
 ```
 dependencies {
-    implementation("com.github.ahadj65:convert_to_toman:v0.1")
+    implementation("com.github.ahadj65:convert_to_toman:v1.0")
 }
 ```
 
